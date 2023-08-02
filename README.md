@@ -451,8 +451,8 @@ We use OpenTelemetry Agent as a sidecar container for aggragting relayers metric
 - Configuring the otel-collector in deployment file
 
 #### Building OpenTemetry Agent
-See the otlp-agent dirctory [here](https://github.com/sygmaprotocol/sygma-relayer-deployment/tree/main/otlp-agent) br
-The agent require three major files
+See the otlp-agent dirctory [here](https://github.com/sygmaprotocol/sygma-relayer-deployment/tree/main/otlp-agent).
+The agent requires three major files:
 - Builder: `otlp-builder.yml`
 - Config File: `otlp-config.yml`
 - Dockerfile
